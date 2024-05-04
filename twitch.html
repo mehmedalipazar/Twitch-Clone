@@ -1,0 +1,771 @@
+<html>
+  <head>
+    <title>Twitch</title>
+    <link rel="icon" href="imgs/5968819.png">
+    <link rel="stylesheet" href="twitch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <div class="header">
+        <div class="header_sol">
+          <div class="logo"><img src="imgs/5968819.png" alt="" width="100%" height="100%"></div>
+          <a href="" id="gozat">Gözat</a>
+          <a href="" id="tab_a"><img src="imgs/tab.svg" id="tab">
+          </a>
+          <div class="optionsdiv">
+            <a href="" ><i class="fa-solid fa-ellipsis-vertical" id="options" title="Daha Fazla"></i></a>
+          </div>
+        </div>
+        <div class="header_orta">
+          <div class="aramacubugu"><input type="text" class="text1" placeholder="Ara"></div>
+          <div class="searchbutton"><a href="">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </a></div>
+        </div>
+        <div class="header_sag">
+          <div class="search"><a href="" >
+            <div class="search_div_icon">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div></a>
+          </div>
+          <div class=icon_div>
+            <a href=""><img src="imgs/prime.svg"></a>
+          </div>
+          <div class="login_div">
+            <a href="" class="login">Oturum Aç</a>
+          </div>
+          <div class="register_div">
+            <a href="" class="register">Kayıt Ol</a>
+          </div>
+          <div class="profile_div"><a href="" >
+            <div class="profile_div_icon">
+              <i class="fa-regular fa-user subject_profile_icon"></i>
+            </div></a>
+          </div>
+        </div>
+      </div>
+      <div class="orta">
+        <div class="orta_sol">
+            <div class="sidebar_title">
+              <h2>ÖNERİLEN KANALLAR</h2>
+              <span><i class="fa-sharp fa-solid fa-video" id="streamimage"></i></span>
+              <div class="leftarrow">
+                <a href=""><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+              </div>
+              
+            </div>
+            <div class="sidebar_content">
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image1.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>10,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image2.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>7,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image3.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>20,8B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image4.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>2,6B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image5.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>20B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image4.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>10,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image3.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>10,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image2.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>10,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="recommended-streamer">
+                <a href="">
+                  <div class="streamer-container">
+                    <div class="sidebar-streamer-image">
+                      <img src="imgs/streamer-image1.png" alt="">
+                    </div>
+                    <div class="sidebar-streamer-content">
+                      <p>Örnek Yayıncı</p>
+                      <p id="p2">Örnek İçerik</p>
+                    </div>
+                    <div class="sidebar-streamer-stats">
+                      <i class="fa-solid fa-circle"></i>
+                      <span>10,5B</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              
+              
+
+
+            </div>
+            
+        </div>
+        <div class="orta_sag">
+          <div class="yayin">
+            <div class="solbutondivi">
+              <a href=""><i class="fa-solid fa-chevron-left"></i></a>
+            </div>
+            <div class="yayindivi"></div>
+            <div class="sagbutondivi">
+              <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="yazidivi1">Seveceğinizi düşündüğümüz <span><a href="" id="purpletext">Canlı Kanallar</a></span></div>
+          <div class="main">
+            <div class="icerikler1">
+              <div class="yayinkutusu" id="box1">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image1.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv" >
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image1.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box2">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image2.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image2.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box3">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image3.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image3.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box4">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image4.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image4.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="icerikler2">
+              <div class="yayinkutusu" id="box5">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image5.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image5.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box6">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image6.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image1.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box7">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image7.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image2.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box8">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image8.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image4.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dahafazlagoster_div">
+              <div class="cizgi1"></div>
+              <div class="dahafazlagoster_button">
+                <a href="">Daha Fazla Göster
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+
+              </div>
+              <div class="cizgi1"></div>
+            </div>
+            <div class="yazidivi2">Önerilen <span><a href="" id="purpletext">Örnek İçerik</a></span> Kanalları
+            </div>
+            <div class="icerikler3">
+              <div class="yayinkutusu" id="box1">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image1.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv" >
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image1.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box2">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image2.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image2.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box3">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image3.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image3.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="yayinkutusu" id="box4">
+                <div class="yayinkutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_ortasag_image4.jpg" alt=""></a>
+                </div>
+                <div class="yayinkutusu_altdiv">
+                  <div class="yayinkutusu_altdiv_sol">
+                    <div class="yayinkutusu_altdiv_kucukresim">
+                      <a href=""><img src="imgs/streamer-image4.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="yayinkutusu_altdiv_sag">
+                    <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                    <a href=""><p>Yayıncı İsmi</p></a>
+                    <a href=""><p id="content_name">İçerik Adı</p></a>
+                    <div class="content_tags">
+                      <ul>
+                        <li>
+                          <a href="">Etiket 1</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 2</a>
+                        </li>
+                        <li>
+                          <a href="">Etiket 3</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dahafazlagoster_div">
+              <div class="cizgi1"></div>
+              <div class="dahafazlagoster_button">
+                <a href="">Daha Fazla Göster
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                
+
+              </div>
+              <div class="cizgi1"></div>
+            </div>
+            <div class="yazidivi2">Seveceğinizi düşündüğümüz <span><a href="" id="purpletext">Kategoriler</a></span>
+            </div>
+            <div class="icerikler4">
+              <div class="kategorikutusu" id="kategori1">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img1.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kategorikutusu" id="kategori2">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img2.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kategorikutusu" id="kategori3">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img3.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kategorikutusu" id="kategori4">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img4.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kategorikutusu" id="kategori5">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img5.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kategorikutusu" id="kategori6">
+                <div class="kategorikutusu_resimdiv">
+                  <a href=""><img src="imgs/twitch_kategori_img6.jpg"  alt=""></a>
+                </div>
+                <div class="kategorikutusu_altdiv">
+                  <a href=""><h3>ÖRNEK YAYIN BAŞLIĞI ÖRNEK YAYIN BAŞLIĞI</h3></a>
+                  <a href=""><p id="content_name">156,5 B izleyici</p></a>
+                  <div class="content_tags">
+                    <ul>
+                      <li>
+                        <a href="">Etiket 1</a>
+                      </li>
+                      <li>
+                        <a href="">Etiket 2</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="footer">
+        <div class="footer_content_div1">
+          <div>
+          <img src="imgs/footer.png" alt="" id="footer">
+        </div>
+          <div class="footer_yazi1_div">
+            <p>Twitch topluluğuna katılın!</p>
+          </div>
+          <div class="footer_yazi2_div">
+            <p id="p3">Dilediğiniz yerden en iyi canlı yayınları keşfedin</p>
+          </div>
+          <div class="footer_button_div">
+              <div class="kaydol_div">
+                <a href="">Kaydol</a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
